@@ -9,7 +9,7 @@ def search_post_by_choice(insta_username, option=0, post_selection=0, n=0):
     comment_on_a_post = []
     total_media = len(search_post['data'])             # To get the total no. of media
     if total_media == 0:
-        print("This User has no footprints on instagram:-(!")
+        print("This user is lazy :-(!")
     else:
         if option == 1:  # For liking a post
             for each_media in range(0, total_media):

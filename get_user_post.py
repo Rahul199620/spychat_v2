@@ -2,7 +2,7 @@ import requests
 import urllib
 from get_user_id import get_user_id
 from constants import APP_ACCESS_TOKEN, BASE_URL
-def get_user_info(insta_username):
+def get_user_post(insta_username):
     user_id = get_user_id(insta_username)
     if user_id == None :
         print 'user doesnot exist'

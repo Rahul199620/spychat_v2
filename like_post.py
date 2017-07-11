@@ -1,5 +1,6 @@
 import requests
 from constants import APP_ACCESS_TOKEN, BASE_URL
+from search_post_by_choice import search_post_by_choice
 
 def like_post(insta_username, option, post_selection, n):
     media_id = search_post_by_choice(insta_username, option, post_selection, n)

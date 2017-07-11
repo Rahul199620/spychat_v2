@@ -7,3 +7,4 @@ from get_user_post import get_user_post
 #self_info()
 #get_own_post()
 get_user_post()
+#search_post_by_choice()
