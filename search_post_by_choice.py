@@ -1,9 +1,9 @@
-from get_user_post import get_user_post
+from get_user_post import get_user_info
 
 
 # Search the one which is most popular least popular and the recent one.
 def search_post_by_choice(insta_username, option=0, post_selection=0, n=0):
-    search_post = get_user_post(insta_username)      # This function is called here to get the user's post details.
+    search_post = get_user_info(insta_username)      # This function is called here to get the user's post details.
     post_index = 0  # For most recent post
     like_on_a_post = []
     comment_on_a_post = []
