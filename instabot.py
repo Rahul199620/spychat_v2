@@ -1,3 +1,4 @@
+
 from del_negative_cmnt import delete_negative_comment
 from self_info import self_info
 from get_user_info import get_user_info
@@ -5,12 +6,14 @@ from get_own_post import get_own_post
 from get_user_post  import get_user_post
 from like_post import like_post
 from post_comment import post_a_comment
-
+from colorama import init
+init()
+from colorama import Fore,Back
 
 def start_bot():
     while True:
         print '\n'
-        print 'Hey! Welcome to instaBot!'
+        print Fore.BLUE+ 'Hey! Welcome to instaBot!'
         print 'Here are your menu options:'
         print "a.Get your own details\n"
         print "b.Get details of a user by username\n"
